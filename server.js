@@ -1,7 +1,8 @@
 const http = require("http")
 
-http.createServer((request, respond) => {
-    respond.end("Learning Node.js looks interesting for the main-time")
-}).listen(8000)
+http.createServer((req, res) => {
+    res.end("this is the fifth time i am working on creating a server")
+}).listen(5000)
 
-console.log("node js is an open source package that helps to build backend")
+
+console.log("after building your server, in your terminal write 'node server' to view it in your console.")
